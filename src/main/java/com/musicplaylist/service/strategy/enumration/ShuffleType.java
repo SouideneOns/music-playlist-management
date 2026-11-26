@@ -1,4 +1,4 @@
-package com.musicplaylist.service.strategy;
+package com.musicplaylist.service.strategy.enumration;
 
 public enum ShuffleType {
     RANDOM,

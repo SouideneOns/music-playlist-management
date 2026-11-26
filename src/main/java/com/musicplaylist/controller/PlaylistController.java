@@ -11,7 +11,7 @@ import com.musicplaylist.service.PlaylistService;
 
 import com.musicplaylist.service.PlaylistSongService;
 import com.musicplaylist.service.RecommendationService;
-import com.musicplaylist.service.strategy.ShuffleType;
+import com.musicplaylist.service.strategy.enumration.ShuffleType;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -116,7 +116,6 @@ public class PlaylistController {
 
         return ResponseEntity.noContent().build();
     }
-
 
     @PostMapping("/{playlistId}/shuffle")
     public ResponseEntity<PlaylistResponse> shufflePlaylist(

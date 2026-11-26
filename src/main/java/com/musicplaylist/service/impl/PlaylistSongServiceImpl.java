@@ -10,7 +10,7 @@ import com.musicplaylist.repository.SongRepository;
 import com.musicplaylist.service.PlaylistSongService;
 
 import com.musicplaylist.service.ShuffleService;
-import com.musicplaylist.service.strategy.ShuffleType;
+import com.musicplaylist.service.strategy.enumration.ShuffleType;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

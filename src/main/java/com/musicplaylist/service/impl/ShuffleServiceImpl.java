@@ -3,7 +3,7 @@ package com.musicplaylist.service.impl;
 import com.musicplaylist.model.Song;
 import com.musicplaylist.service.ShuffleService;
 import com.musicplaylist.service.strategy.ShuffleStrategy;
-import com.musicplaylist.service.strategy.ShuffleType;
+import com.musicplaylist.service.strategy.enumration.ShuffleType;
 
 import org.springframework.stereotype.Service;
 import java.util.List;
